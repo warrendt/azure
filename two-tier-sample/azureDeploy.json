@@ -32,13 +32,12 @@
     "FirewallVmSize": {
       "type": "string",
       "allowedValues": [
-        "Standard_D3_v2",
-        "Standard_D4_v2"
+        "Standard_DS3_v2"
       ],
       "metadata": {
         "description": "This is the size of PAN's firewall VM"
       },
-      "defaultValue": "Standard_D3_v2"
+      "defaultValue": "Standard_DS3_v2"
     },
     "fwSku": {
        "type": "string",
